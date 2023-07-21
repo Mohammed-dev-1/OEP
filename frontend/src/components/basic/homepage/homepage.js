@@ -12,7 +12,7 @@ function Homepage(props) {
   } else {
     return (
       <div>
-        <div className="parallax">
+        <div className="parallax main-bg">
           <Login />
         </div>
       </div>

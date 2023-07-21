@@ -98,7 +98,7 @@ class Dashboard extends React.Component {
       torender = <ErrorPage />;
     }
     return (
-      <Layout>
+      <Layout className="main-bg">
         <Sider
           trigger={null}
           collapsible

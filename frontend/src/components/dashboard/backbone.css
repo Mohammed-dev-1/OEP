@@ -34,3 +34,32 @@
   display: inline;
   margin-right: 30px;
 }
+
+.ant-layout {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(238, 238, 238, 1) 100%
+  ) !important;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected,
+.logout-button {
+  background-color: #f06562 !important;
+}
+
+.ant-layout-sider,
+.ant-menu-dark,
+.ant-menu-dark .ant-menu-sub,
+.ant-layout-header {
+  background: #215c70 !important;
+}
+
+.ant-layout-header {
+  border-bottom: 2px solid #f06562 !important;
+}
+
+.logout-button {
+  border-color: #f06562 !important;
+}

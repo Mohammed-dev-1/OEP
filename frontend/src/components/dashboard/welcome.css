@@ -15,3 +15,15 @@
 .steps-current-instruction {
   margin-top: 16px;
 }
+.box-container {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px !important;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.2);
+}
+.box-container:not(:last-child) {
+  margin-bottom: 30px;
+}
+.main-text {
+  color: #215c70;
+}

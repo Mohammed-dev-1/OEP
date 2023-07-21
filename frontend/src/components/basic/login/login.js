@@ -48,7 +48,7 @@ class Login extends React.Component {
       return <Redirect to={this.props.user.userOptions[0].link} />;
     } else {
       return (
-        <div className="login-container">
+        <div className="login-container login-bg">
           <div className="login-inner">
             <Form onSubmit={this.handleSubmit}>
               <Form.Item label="Email" style={{ color: "#fff" }} hasFeedback>
@@ -68,6 +68,7 @@ class Login extends React.Component {
                     prefix={
                       <Icon type="user" style={{ color: "rgba(0,0,0,.25)" }} />
                     }
+                    className="login-input"
                     placeholder="Username"
                   />
                 )}
@@ -85,13 +86,19 @@ class Login extends React.Component {
                     prefix={
                       <Icon type="lock" style={{ color: "rgba(0,0,0,.25)" }} />
                     }
+                    className="login-input"
                     type="password"
                     placeholder="Password"
                   />
                 )}
               </Form.Item>
               <Form.Item>
-                <Button type="primary" htmlType="submit" block>
+                <Button
+                  type="primary"
+                  className="login-btn"
+                  htmlType="submit"
+                  block
+                >
                   Login
                 </Button>
               </Form.Item>
