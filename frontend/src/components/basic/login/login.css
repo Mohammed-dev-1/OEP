@@ -1,0 +1,16 @@
+.login-container {
+  width: 300px;
+  height: 350px;
+  background: #f6f4f4;
+  border-radius: 8px;
+  border: 2px solid #1e1c21;
+}
+
+.login-inner {
+  padding: 50px 30px;
+}
+
+.lable {
+  color: aliceblue;
+  font-size: 15px;
+}
